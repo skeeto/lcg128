@@ -3,7 +3,7 @@
 This package provides a seedable, high quality PRNG built upon
 bignums. The algorithm is a [minimal standard 128-bit Linear
 Congruential Generator (LCG)][pcg] with [parameters from Emacs
-Calc][lcg]):
+Calc][lcg]:
 
     m = 0x86cbe851ccd8e971cdd864f4f5fd99b5
     a = 0xc3385d20aa58ba6d70f12e993960a383

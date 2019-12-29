@@ -45,12 +45,12 @@ statistical quality is excellent for a non-cryptographic PRNG. Unlike
 Note: The benchmark was run [with this `cl-random` patch][patch].
 
     $ make bench
-    lcg128    [small] (3.840591675 261 1.3982111529999999)
-    cl-random [small] (0.616929319 0 0.0)
-    random    [small] (0.059255594 0 0.0)
-    lcg128    [large] (3.391564615 260 1.2864716040000004)
-    cl-random [large] (1.383506901 0 0.0)
-    random    [large] (0.057779421 0 0.0)
+    lcg128    [small] (1.782784913 130 0.646757037)
+    cl-random [small] (0.492068786 0 0.0)
+    random    [small] (0.06470748800000001 0 0.0)
+    lcg128    [large] (1.777883544 130 0.6488473080000001)
+    cl-random [large] (1.388324855 0 0.0)
+    random    [large] (0.057713930000000004 0 0.0)
 
 ## API
 
